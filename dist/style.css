@@ -1,0 +1,125 @@
+body {
+    font-family: verdana,'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://i.pinimg.com/originals/91/e9/2a/91e92a9bc46a1f54e36fa43823321545.jpg');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+/*cabeçalho*/
+  .header-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    box-shadow: 0,0,0,0,0.7;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo-theoffice{
+  width: 300px;
+  text-align: center;
+  }
+
+  .page-logo {
+    width: 180px;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+/*interação*/
+
+  h3{
+    text-align: center;
+    opacity: 0;
+   }
+
+.personagem-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto 0;
+  }
+
+  input {
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .personagem {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -2px 15px 23px -10px white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 520px;
+  }
+
+  .personagem img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+  .personagem1 img{
+    display: flexbox;
+    width: 180px;
+    margin: auto;
+  }
+
+  .personagem2 img{
+    display: flexbox;
+    width: 100px;
+    margin: auto;
+  }
+
+  .personagem3 img{
+    display: flexbox;
+    width: 150px;
+    margin: auto;
+  }
+
+  /*rodapé*/
+
+  footer{
+    padding: 0%;
+    margin: 2%;
+    font-size: small;
+    color: white;
+    height: 2px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:hover{
+    color: yellow;
+  }
